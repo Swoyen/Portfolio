@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Roboto+Mono:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="img/logo/Logo2.png" />
+    <title>Swoyen Suwal - Portfolio</title>
+  </head>
+  <body>
+    <ul class="navbar" data-aos="fade-down">
+      <li class="nav-item" data-aos="zoom-out" data-aos-delay="200">
+        <button class="btn navbar-btn" onclick="location.href='res/Resume.pdf'">
+          Resume
+        </button>
+      </li>
+      <li class="nav-item" data-aos="fade-down" data-aos-delay="200">
+        <a href="#contact">Contact</a>
+      </li>
+      <li class="nav-item" data-aos="fade-down" data-aos-delay="400">
+        <a href="#resume">Resume</a>
+      </li>
+      <li class="nav-item" data-aos="fade-down" data-aos-delay="600">
+        <a href="#about">About</a>
+      </li>
+      <li class="nav-brand" data-aos="fade-down" data-aos-delay="800">
+        <a href="#">
+          <img class="logo expanded-logo" src="img/logo/Logo1.png" alt="" />
+        </a>
+      </li>
+    </ul>
+    <div class="container">
+      <div class="landing">
+        <p style="margin: 0px" data-aos="fade-up" data-aos-delay="200">
+          Hi, My name is
+        </p>
+        <span data-aos="fade-up" data-aos-delay="800" class="landing-header"
+          >Swoyen Suwal.</span
+        >
+        <h1 data-aos="fade-up" data-aos-delay="1100">
+          <p
+            class="typewrite"
+            data-period="2000"
+            data-type='[ "I am a Fullstack Developer.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'
+          >
+            <span class="wrap"></span>
+          </p>
+        </h1>
+        <h4 data-aos="fade-up" data-aos-delay="1300" class="landing-content">
+          I am a recent graduate in Bachelor's of Software Engineering from
+          UniSA. I am a quick learner and don't hesitate to learn new things.
+          Using my skills, I am aiming to become a highly skilled software
+          developer.
+        </h4>
+        <button
+          data-aos="fade-up"
+          data-aos-delay="1400"
+          class="btn"
+          onclick="location.href='mailto:swoyenrajsinghsuwal@gmail.com';"
+        >
+          Say Hello
+        </button>
+        <div
+          data-aos="zoom-out"
+          data-aos-delay="3000"
+          data-aos-duration="1000"
+          class="go-down"
+        >
+          <a href="#about"><ion-icon name="arrow-down-outline"></ion-icon></a>
+        </div>
+      </div>
+      <section id="about" data-aos="fade-up">
+        <h1 class="section-header">About me</h1>
+
+        <div class="profile" data-aos="zoom-out">
+          <div class="profile-header">
+            <span class="profile-pic"></span>
+          </div>
+          <div class="profile-content">
+            <p style="margin-bottom: 3em; line-height: 2em">
+              <span style="font-size: 25px">Hello!</span> My name is Swoyen and
+              I enjoy creating software. I try to keep up with the latest
+              technologies by learning and programming in it. With the skills I
+              possess, my aim is to further enhance my skillsets.
+            </p>
+            <span class="profile-link">
+              Linkedin:
+              <a href="https://www.linkedin.com/in/swoyen/" target="_blank"
+                ><ion-icon
+                  class="profile-logo"
+                  name="logo-linkedin"
+                ></ion-icon></a
+            ></span>
+            <span class="profile-link">
+              GitHub:<a
+                href="https://www.github.com/swoyenssss/"
+                target="_blank"
+              >
+                <ion-icon class="profile-logo" name="logo-github"></ion-icon
+              ></a>
+            </span>
+          </div>
+        </div>
+
+        <h3 class="subheader">Interests</h3>
+        <div class="cards" data-aos="zoom-out">
+          <div class="card" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-top">
+              <ion-icon
+                name="musical-note"
+                size="large"
+                class="card-icon"
+              ></ion-icon>
+              <h4 class="card-header">Piano</h4>
+            </div>
+            <span class="line"></span>
+            <p class="card-content">
+              I'm learning the piano. I like to listen and play classical music.
+            </p>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-top">
+              <ion-icon
+                name="game-controller"
+                size="large"
+                class="card-icon"
+              ></ion-icon>
+              <h4 class="card-header">Gaming</h4>
+            </div>
+            <span class="line"></span>
+            <p class="card-content">
+              I am an avid gamer. Unfortunately, I haven't gotten a console. I'm
+              a PC Gamer. :)
+            </p>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-delay="600">
+            <div class="card-top">
+              <ion-icon name="leaf" class="card-icon" size="large"></ion-icon>
+              <h4 class="card-header">Nature walking</h4>
+            </div>
+            <span class="line"></span>
+            <p class="card-content">
+              Walking in nature makes me calm. It helps me think clearly. I like
+              <span style="color: rgb(0, 255, 0)">green</span>.
+            </p>
+          </div>
+        </div>
+
+        <div class="programming" data-aos="zoom-out">
+          <h3 class="subheader">Languages/Frameworks</h3>
+          <div class="programming-list">
+            Here are some languages/frameworks I've used recently:
+            <ol>
+              <li data-aos="fade-right" data-aos-delay="200">React</li>
+              <li data-aos="fade-right" data-aos-delay="300">Vue</li>
+              <li data-aos="fade-right" data-aos-delay="400">.NET Core</li>
+              <li data-aos="fade-right" data-aos-delay="500">Laravel</li>
+              <li data-aos="fade-right" data-aos-delay="600">Unity</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" data-aos="fade-up">
+        <h1 class="section-header">Resume</h1>
+        <h3 class="subheader">Experience</h3>
+        <div class="row" data-aos="zoom-out">
+          <div class="experience-list">
+            <ul>
+              <li>QCI - Contractor</li>
+              <li>UniSA - Research Assistant (Photo360 Scene)</li>
+              <li>UniSA - Research Assistant (Immersive Analytics)</li>
+              <li>UniSA - Vacation Internship</li>
+              <li>CSIRO - Data61 Internship</li>
+              <li>Supreme Kitchens - IT Engineer</li>
+            </ul>
+          </div>
+
+          <div class="experience-bullets">
+            <ul>
+              <li>
+                <ion-icon
+                  name="play-outline"
+                  class="experience-circle"
+                  onclick="showDetails(5)"
+                ></ion-icon>
+              </li>
+              <li>
+                <ion-icon
+                  name="play-outline"
+                  class="experience-circle"
+                  onclick="showDetails(4)"
+                ></ion-icon>
+              </li>
+              <li>
+                <ion-icon
+                  name="play-outline"
+                  class="experience-circle"
+                  onclick="showDetails(3)"
+                ></ion-icon>
+              </li>
+              <li>
+                <ion-icon
+                  name="play-outline"
+                  class="experience-circle"
+                  onclick="showDetails(2)"
+                ></ion-icon>
+              </li>
+              <li>
+                <ion-icon
+                  name="play-outline"
+                  class="experience-circle"
+                  onclick="showDetails(1)"
+                ></ion-icon>
+              </li>
+              <li>
+                <ion-icon
+                  name="play-outline"
+                  class="experience-circle"
+                  onclick="showDetails(0)"
+                ></ion-icon>
+              </li>
+            </ul>
+          </div>
+          <div class="detailed-experience">
+            <p class="typewrite2">
+              <span style="margin-top: 4em"
+                >Please click on
+                <b style="color: rgb(0, 255, 0)"> any two</b> play buttons in a
+                sequence. <span class="tiny-blinker"></span></span
+              ><span class="wrap"></span>
+            </p>
+          </div>
+        </div>
+        <!-- <div class="row">
+          <div class="column-1">
+            <h3 class="subheader">Education</h3>
+            <div class="edvol">
+              University of South Australia <br />
+              Bachelor of Software Engineering <br />
+              2015- 2019 <br />
+              First Class Honours
+            </div>
+            <div>
+              University of South Australia <br />
+              Bachelor of Software Engineering <br />
+              2015- 2019 <br />
+              First Class Honours
+            </div>
+          </div>
+          <div class="column-1">
+            <h3 class="subheader">Volunteering</h3>
+            <div class="edvol">
+              University of South Australia <br />
+              Bachelor of Software Engineering <br />
+              2015- 2019 <br />
+              First Class Honours
+            </div>
+            <div>
+              University of South Australia <br />
+              Bachelor of Software Engineering <br />
+              2015- 2019 <br />
+              First Class Honours
+            </div>
+          </div>
+        </div> -->
+
+        <h3 class="subheader">Coding Skills</h3>
+        <div class="coding-skills" data-aos="fade-out" data-aos-id="progress">
+          <div class="coding-skill">
+            <span class="coding-skill-name">HTML/CSS</span>
+            <div class="coding-skill-bar">
+              <div class="progress-bar">
+                <div class="progress-bar-inner"></div>
+              </div>
+            </div>
+            <span class="coding-skill-num">80%</span>
+          </div>
+          <div class="coding-skill">
+            <span class="coding-skill-name">PHP</span>
+            <div class="coding-skill-bar">
+              <div class="progress-bar">
+                <div class="progress-bar-inner"></div>
+              </div>
+            </div>
+            <span class="coding-skill-num">70%</span>
+          </div>
+          <div class="coding-skill">
+            <span class="coding-skill-name">Javascript</span>
+            <div class="coding-skill-bar">
+              <div class="progress-bar">
+                <div class="progress-bar-inner"></div>
+              </div>
+            </div>
+            <span class="coding-skill-num">60%</span>
+          </div>
+          <div class="coding-skill">
+            <span class="coding-skill-name">C#/Java</span>
+            <div class="coding-skill-bar">
+              <div class="progress-bar">
+                <div class="progress-bar-inner"></div>
+              </div>
+            </div>
+            <span class="coding-skill-num">80%</span>
+          </div>
+        </div>
+
+        <div class="programming" data-aos="zoom-out">
+          <h3 class="subheader">General Skills</h3>
+          <div class="programming-list">
+            Here are some of my strong skills:
+            <ol>
+              <li data-aos="fade-right" data-aos-delay="200">
+                Detail-oriented
+              </li>
+              <li data-aos="fade-right" data-aos-delay="300">
+                Problem-solving
+              </li>
+              <li data-aos="fade-right" data-aos-delay="400">Focus</li>
+              <li data-aos="fade-right" data-aos-delay="500">Quick Learner</li>
+              <li data-aos="fade-right" data-aos-delay="600">Perservering</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" data-aos="zoom-out">
+        <h1 class="section-header">Projects</h1>
+        <h3 class="subheader">SOME THINGS I'VE WORKED ON</h3>
+        <div class="cards">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            class="card hover-card"
+            onclick="clickCard(0)"
+          >
+            <div class="card-top">
+              <a
+                href="http://laraveltnnis-env.eba-5ixqqbqu.us-east-2.elasticbeanstalk.com/"
+                id="folder-link0"
+              ></a>
+              <ion-icon
+                name="folder"
+                size="large"
+                class="card-icon"
+                id="folder0"
+              ></ion-icon>
+              <h4 class="card-header">Tennis Rankings</h4>
+            </div>
+            <span class="line"></span>
+            <p class="card-fixed-content">
+              A website with basic CRUD functionality for ranking tennis
+              players.
+            </p>
+            <span class="line"></span>
+            <div class="card-bottom">
+              <span class="card-bottom-item">Laravel</span>
+              <span class="card-bottom-item">Vue</span>
+              <span class="card-bottom-item">mySQL</span>
+              <span class="card-bottom-item">AWS</span>
+              <span class="card-bottom-item">Bootstrap</span>
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="400"
+            class="card hover-card"
+            onclick="clickCard(1)"
+          >
+            <div class="card-top">
+              <a
+                href="https://barebones-youtube-player.netlify.app"
+                id="folder-link1"
+              ></a>
+              <ion-icon
+                name="folder"
+                size="large"
+                class="card-icon"
+                id="folder1"
+              ></ion-icon>
+              <h4 class="card-header">Youtube Player</h4>
+            </div>
+            <span class="line"></span>
+            <p class="card-fixed-content">
+              A very basic youtube player interacting with the youtube api to
+              fetch and play videos.
+            </p>
+            <span class="line"></span>
+            <div class="card-bottom">
+              <span class="card-bottom-item">React</span>
+              <span class="card-bottom-item">Netlify</span>
+              <span class="card-bottom-item">Youtube API</span>
+            </div>
+          </div>
+
+          <div class="card" data-aos="fade-up" data-aos-delay="600">
+            <p class="card-content">MORE COMING SOON...</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" data-aos="zoom-out">
+        <h1 class="section-header">Contact me</h1>
+        <h3 class="subheader">I'm Open to work.</h3>
+      </section>
+      <div class="row">
+        <div class="ending" data-aos="zoom-out" data-aos-delay="200">
+          <p
+            style="
+              margin-bottom: 4em;
+              margin-top: -2em;
+              text-align: justify;
+              justify-content: center;
+            "
+          >
+            Currently, I am not working and I am open to new opportunities.
+            Please, let me know if you have any opportunities for me. Also, feel
+            free to make any suggestions for the website.
+          </p>
+          <button
+            class="btn"
+            onclick="location.href='mailto:swoyenrajsinghsuwal@gmail.com';"
+          >
+            Send Mail
+          </button>
+        </div>
+      </div>
+
+      <div class="footer">Designed and Built by Swoyen Suwal.</div>
+    </div>
+
+    <!--************************ Script tags **********************************-->
+    <script type="text/javascript" src="res/work.js"></script>
+    <script src="js/index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+</html>
