@@ -470,3 +470,17 @@ document
   .addEventListener("click", function () {
     if (!inCard) unClickCard();
   });
+
+function showMenu() {
+  var sidemenuoverlay = document.getElementsByClassName("side-menu-overlay")[0];
+  var sidemenu = document.getElementsByClassName("side-menu")[0];
+  sidemenuoverlay.classList.add("side-menu-overlay-opened");
+  sidemenu.classList.add("side-menu-opened");
+}
+
+function hideMenu() {
+  var sidemenuoverlay = document.getElementsByClassName("side-menu-overlay")[0];
+  var sidemenu = document.getElementsByClassName("side-menu")[0];
+  sidemenuoverlay.classList.remove("side-menu-overlay-opened");
+  sidemenu.classList.remove("side-menu-opened");
+}
