@@ -276,10 +276,10 @@ function animateProgressNum() {
 
 progressBarScrolled = false;
 
-progressBar0 = 80;
-progressBar1 = 70;
+progressBar0 = 60;
+progressBar1 = 60;
 progressBar2 = 60;
-progressBar3 = 80;
+progressBar3 = 60;
 
 function increaseProgress(num) {
   setTimeout(() => {
@@ -419,6 +419,26 @@ var inCard = false;
 
 var currentCard = -1;
 
+var sources = [
+  "https://restrantau.netlify.app",
+  "http://laraveltnnis-env.eba-5ixqqbqu.us-east-2.elasticbeanstalk.com/",
+  "https://barebones-youtube-player.netlify.app",
+];
+
+var codes = [
+  "https://github.com/Swoyen/restaurant-front-end",
+  "https://github.com/Swoyen/laravel-tennis",
+  "https://barebones-youtube-player.netlify.app",
+];
+
+function openSource(index) {
+  window.open(sources[index]);
+}
+
+function openCode(index) {
+  window.open(codes[index]);
+}
+
 function clickCard(index) {
   var cards = document.getElementsByClassName("hover-card");
   if (index === currentCard) {
@@ -428,6 +448,7 @@ function clickCard(index) {
       if (i === index) {
         cards[i].classList.add("hover-card-clicked");
         var folder = document.getElementById("folder" + i);
+
         var link = document.getElementById("folder-link" + i);
         window.open(link.href);
         folder.name = "folder-open-outline";

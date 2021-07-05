@@ -24,6 +24,7 @@
         <ul>
           <li><a href="#about" onclick="hideMenu()">About</a></li>
           <li><a href="#resume" onclick="hideMenu()">Resume</a></li>
+          <li><a href="#projects" onclick="hideMenu()">Projects</a></li>
           <li><a href="#contact" onclick="hideMenu()">Contact</a></li>
           <li><button class="btn">Resume</button></li>
         </ul>
@@ -37,6 +38,9 @@
       </li>
       <li class="nav-item" data-aos="fade-down" data-aos-delay="200">
         <a href="#contact">Contact</a>
+      </li>
+      <li class="nav-item" data-aos="fade-down" data-aos-delay="200">
+        <a href="#projects">Projects</a>
       </li>
       <li class="nav-item" data-aos="fade-down" data-aos-delay="400">
         <a href="#resume">Resume</a>
@@ -365,7 +369,7 @@
                 <div class="progress-bar-inner"></div>
               </div>
             </div>
-            <span class="coding-skill-num">80%</span>
+            <span class="coding-skill-num">60%</span>
           </div>
           <div class="coding-skill">
             <span class="coding-skill-name">PHP</span>
@@ -374,7 +378,7 @@
                 <div class="progress-bar-inner"></div>
               </div>
             </div>
-            <span class="coding-skill-num">70%</span>
+            <span class="coding-skill-num">60%</span>
           </div>
           <div class="coding-skill">
             <span class="coding-skill-name">Javascript</span>
@@ -392,7 +396,7 @@
                 <div class="progress-bar-inner"></div>
               </div>
             </div>
-            <span class="coding-skill-num">80%</span>
+            <span class="coding-skill-num">60%</span>
           </div>
         </div>
 
@@ -419,26 +423,72 @@
         <h1 class="section-header">Projects</h1>
         <h3 class="subheader">SOME THINGS I'VE WORKED ON</h3>
         <div class="cards">
-          <div data-aos="fade-up" data-aos-delay="200">
-            <div class="card hover-card" onclick="clickCard(0)">
+          <div data-aos="fade-up" data-aos-delay="200" onclick="clickCard(0)">
+            <div class="card">
               <div class="card-top">
-                <a
-                  href="http://laraveltnnis-env.eba-5ixqqbqu.us-east-2.elasticbeanstalk.com/"
-                  id="folder-link0"
-                ></a>
+                <a href="https://restrantau.netlify.app" id="folder-link0"></a>
                 <ion-icon
                   name="folder"
                   size="large"
                   class="card-icon"
                   id="folder0"
                 ></ion-icon>
+                <h4 class="card-header">Restaurant app</h4>
+              </div>
+              <span class="line"></span>
+              <div class="card-fixed-content">
+                Ordering app to be used by cashiers in restaurants.
+              </div>
+
+              <span class="line"></span>
+
+              <div class="card-fixed-buttons">
+                <span class="card-content-button" onclick="openSource(0)"
+                  >Source</span
+                >
+                <span class="card-content-button" onclick="openCode(0)"
+                  >Code</span
+                >
+              </div>
+              <span class="line"></span>
+              <div class="card-bottom">
+                <span class="card-bottom-item">React</span>
+                <span class="card-bottom-item">.Net Core</span>
+                <span class="card-bottom-item">Azure</span>
+              </div>
+            </div>
+          </div>
+
+          <div data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <div class="card-top">
+                <a
+                  href="http://laraveltnnis-env.eba-5ixqqbqu.us-east-2.elasticbeanstalk.com/"
+                  id="folder-link1"
+                ></a>
+                <ion-icon
+                  name="folder"
+                  size="large"
+                  class="card-icon"
+                  id="folder1"
+                ></ion-icon>
                 <h4 class="card-header">Tennis Rankings</h4>
               </div>
               <span class="line"></span>
-              <p class="card-fixed-content">
+              <div class="card-fixed-content">
                 A website with basic CRUD functionality for ranking tennis
                 players.
-              </p>
+              </div>
+
+              <span class="line"></span>
+              <div class="card-fixed-buttons">
+                <span class="card-content-button" onclick="openSource(1)"
+                  >Source</span
+                >
+                <span class="card-content-button" onclick="openCode(1)"
+                  >Code</span
+                >
+              </div>
               <span class="line"></span>
               <div class="card-bottom">
                 <span class="card-bottom-item">Laravel</span>
@@ -450,54 +500,39 @@
             </div>
           </div>
           <div data-aos="fade-up" data-aos-delay="200">
-            <div class="card hover-card" onclick="clickCard(1)">
+            <div class="card">
               <div class="card-top">
                 <a
                   href="https://barebones-youtube-player.netlify.app"
-                  id="folder-link1"
+                  id="folder-link2"
                 ></a>
                 <ion-icon
                   name="folder"
                   size="large"
                   class="card-icon"
-                  id="folder1"
+                  id="folder2"
                 ></ion-icon>
                 <h4 class="card-header">Youtube Player</h4>
               </div>
               <span class="line"></span>
-              <p class="card-fixed-content">
+              <div class="card-fixed-content">
                 A very basic youtube player interacting with the youtube api to
                 fetch and play videos.
-              </p>
+              </div>
+              <span class="line"></span>
+              <div class="card-fixed-buttons">
+                <span class="card-content-button" onclick="openSource(2)"
+                  >Source</span
+                >
+                <span class="card-content-button" onclick="openCode(2)"
+                  >Code</span
+                >
+              </div>
               <span class="line"></span>
               <div class="card-bottom">
                 <span class="card-bottom-item">React</span>
                 <span class="card-bottom-item">Netlify</span>
                 <span class="card-bottom-item">Youtube API</span>
-              </div>
-            </div>
-          </div>
-          <div data-aos="fade-up" data-aos-delay="200" onclick="clickCard(2)">
-            <div class="card hover-card">
-              <div class="card-top">
-                <a href="https://restrantau.netlify.app" id="folder-link2"></a>
-                <ion-icon
-                  name="folder"
-                  size="large"
-                  class="card-icon"
-                  id="folder1"
-                ></ion-icon>
-                <h4 class="card-header">Restaurant app</h4>
-              </div>
-              <span class="line"></span>
-              <p class="card-fixed-content">
-                Ordering app to be used by cashiers in restaurants
-              </p>
-              <span class="line"></span>
-              <div class="card-bottom">
-                <span class="card-bottom-item">React</span>
-                <span class="card-bottom-item">.Net Core</span>
-                <span class="card-bottom-item">Azure</span>
               </div>
             </div>
           </div>
